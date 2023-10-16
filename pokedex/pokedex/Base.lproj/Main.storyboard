@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,53 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTD-eA-ew0">
+                                        <rect key="frame" x="28" y="87" width="337" height="39.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <searchBar contentMode="redraw" placeholder="Enter Search Here" translatesAutoresizingMaskIntoConstraints="NO" id="FI4-ap-5uM">
+                                        <rect key="frame" x="28" y="131.33333333333334" width="337" height="56"/>
+                                        <color key="barTintColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="03Y-Na-LW7"/>
+                                        </connections>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leadingMargin" constant="20" id="08z-mg-YUD"/>
+                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="top" secondItem="sTD-eA-ew0" secondAttribute="bottom" constant="5" id="Cpe-T6-wpd"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="sTD-eA-ew0" secondAttribute="trailing" constant="20" id="XkW-2p-Fc2"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="FI4-ap-5uM" secondAttribute="trailing" constant="20" id="deV-EU-voG"/>
+                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leadingMargin" constant="20" id="hlD-Lz-9Pd"/>
+                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="topMargin" constant="20" id="nDS-sJ-eK6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="leT-Tg-fcg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1MB-X6-BUJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leT-Tg-fcg" secondAttribute="trailing" id="PmA-lg-hnm"/>
+                            <constraint firstItem="leT-Tg-fcg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qS1-u6-zkn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leT-Tg-fcg" secondAttribute="bottom" constant="615" id="zAX-D9-zkL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
         </scene>
     </scenes>
 </document>
