@@ -72,11 +72,20 @@
                                             <segue destination="Uq7-Ad-JsU" kind="presentation" modalPresentationStyle="fullScreen" id="orc-fi-Tp1"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon2" translatesAutoresizingMaskIntoConstraints="NO" id="hPf-IC-lNx">
+                                        <rect key="frame" x="-0.33333333333331439" y="0.0" width="161.66666666666666" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="161.66999999999999" id="a9R-Pj-Ju9"/>
+                                            <constraint firstAttribute="height" constant="200" id="rsY-34-Xyo"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="hPf-IC-lNx" firstAttribute="centerY" secondItem="J2f-uY-PJP" secondAttribute="centerY" id="E7O-0E-pvm"/>
                                     <constraint firstItem="iGZ-IY-y5h" firstAttribute="leading" secondItem="J2f-uY-PJP" secondAttribute="leading" constant="10" id="Htk-gA-D4D"/>
                                     <constraint firstAttribute="trailing" secondItem="iGZ-IY-y5h" secondAttribute="trailing" constant="10" id="TUO-5Y-AmG"/>
+                                    <constraint firstItem="hPf-IC-lNx" firstAttribute="centerX" secondItem="J2f-uY-PJP" secondAttribute="centerX" id="WS2-wL-A3K"/>
                                     <constraint firstAttribute="height" constant="200" id="iQh-Pg-QlQ"/>
                                     <constraint firstAttribute="bottom" secondItem="iGZ-IY-y5h" secondAttribute="bottom" constant="5" id="koQ-du-uD9"/>
                                 </constraints>
@@ -92,12 +101,21 @@
                                             <segue destination="TFd-WV-Puf" kind="presentation" modalPresentationStyle="fullScreen" id="yfs-vy-Nhn"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon4" translatesAutoresizingMaskIntoConstraints="NO" id="2Gn-wX-ghZ">
+                                        <rect key="frame" x="-0.33333333333331439" y="0.0" width="161.66666666666666" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="161.66999999999999" id="L8m-t6-xEi"/>
+                                            <constraint firstAttribute="height" constant="200" id="f8O-OM-r8d"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="uLY-K9-Pa4" secondAttribute="trailing" constant="10" id="5Gg-KQ-jdZ"/>
+                                    <constraint firstItem="2Gn-wX-ghZ" firstAttribute="centerY" secondItem="pfC-nk-BUP" secondAttribute="centerY" id="Jxm-vs-6uw"/>
                                     <constraint firstItem="uLY-K9-Pa4" firstAttribute="leading" secondItem="pfC-nk-BUP" secondAttribute="leading" constant="10" id="bVj-CV-dW0"/>
                                     <constraint firstAttribute="height" constant="200" id="dRh-Wd-fQi"/>
+                                    <constraint firstItem="2Gn-wX-ghZ" firstAttribute="centerX" secondItem="pfC-nk-BUP" secondAttribute="centerX" id="qFm-n0-2J6"/>
                                     <constraint firstAttribute="bottom" secondItem="uLY-K9-Pa4" secondAttribute="bottom" constant="5" id="ssH-WB-ubn"/>
                                 </constraints>
                             </view>
@@ -112,11 +130,20 @@
                                             <segue destination="aVS-1m-5bR" kind="presentation" modalPresentationStyle="fullScreen" id="3wO-MW-Csb"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon1" translatesAutoresizingMaskIntoConstraints="NO" id="F8g-gl-sI2">
+                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="161.66999999999999" id="T9y-P4-Rdn"/>
+                                            <constraint firstAttribute="height" constant="200" id="V0t-CM-kkc"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Mwl-mO-gRw" firstAttribute="leading" secondItem="WqM-KW-nkF" secondAttribute="leading" constant="10" id="1EE-FW-OdH"/>
                                     <constraint firstAttribute="height" constant="200" id="MYm-k8-kad"/>
+                                    <constraint firstItem="F8g-gl-sI2" firstAttribute="centerX" secondItem="WqM-KW-nkF" secondAttribute="centerX" id="NLo-KT-xeW"/>
+                                    <constraint firstItem="F8g-gl-sI2" firstAttribute="centerY" secondItem="WqM-KW-nkF" secondAttribute="centerY" id="PRA-0a-47H"/>
                                     <constraint firstAttribute="trailing" secondItem="Mwl-mO-gRw" secondAttribute="trailing" constant="10" id="Yxv-s7-lnd"/>
                                     <constraint firstAttribute="bottom" secondItem="Mwl-mO-gRw" secondAttribute="bottom" constant="5" id="zhv-pf-xEM"/>
                                 </constraints>
@@ -139,9 +166,18 @@
                                             <segue destination="RWZ-ok-YAA" kind="presentation" modalPresentationStyle="fullScreen" id="yFS-ui-3qg"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon3" translatesAutoresizingMaskIntoConstraints="NO" id="b2v-p7-UrN">
+                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="161.66999999999999" id="feg-CF-ceB"/>
+                                            <constraint firstAttribute="height" constant="200" id="tl2-tM-GR3"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="b2v-p7-UrN" firstAttribute="centerX" secondItem="Gvl-ZX-Fla" secondAttribute="centerX" id="Iyc-fN-JGf"/>
+                                    <constraint firstItem="b2v-p7-UrN" firstAttribute="centerY" secondItem="Gvl-ZX-Fla" secondAttribute="centerY" id="Wxz-UT-EE4"/>
                                     <constraint firstAttribute="bottom" secondItem="GC0-xs-DRe" secondAttribute="bottom" constant="5" id="cq9-1R-SbR"/>
                                     <constraint firstAttribute="height" constant="200" id="hz3-Oh-UMw"/>
                                     <constraint firstItem="GC0-xs-DRe" firstAttribute="leading" secondItem="Gvl-ZX-Fla" secondAttribute="leading" constant="10" id="ur3-WI-RXm"/>
@@ -224,6 +260,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pokemon1" width="475" height="475"/>
+        <image name="pokemon2" width="475" height="475"/>
+        <image name="pokemon3" width="475" height="475"/>
+        <image name="pokemon4" width="475" height="475"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
