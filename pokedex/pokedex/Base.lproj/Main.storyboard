@@ -81,7 +81,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGZ-IY-y5h">
                                         <rect key="frame" x="10" y="160" width="141.33333333333334" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="2nd Pokemon"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Charmander"/>
                                         <connections>
                                             <segue destination="Uq7-Ad-JsU" kind="presentation" modalPresentationStyle="fullScreen" id="orc-fi-Tp1"/>
                                         </connections>
@@ -110,7 +110,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLY-K9-Pa4">
                                         <rect key="frame" x="10" y="160" width="141.33333333333334" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="4th Pokemon"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Bulbasaur"/>
                                         <connections>
                                             <segue destination="TFd-WV-Puf" kind="presentation" modalPresentationStyle="fullScreen" id="yfs-vy-Nhn"/>
                                         </connections>
@@ -139,7 +139,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-mO-gRw">
                                         <rect key="frame" x="10" y="160" width="141.66666666666666" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="1st Pokemon"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Jigglypuff"/>
                                         <connections>
                                             <segue destination="aVS-1m-5bR" kind="presentation" modalPresentationStyle="fullScreen" id="3wO-MW-Csb"/>
                                         </connections>
@@ -175,7 +175,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-xs-DRe">
                                         <rect key="frame" x="10" y="160" width="141.66666666666666" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="3rd Pokemon"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Piplup"/>
                                         <connections>
                                             <segue destination="RWZ-ok-YAA" kind="presentation" modalPresentationStyle="fullScreen" id="yFS-ui-3qg"/>
                                         </connections>
