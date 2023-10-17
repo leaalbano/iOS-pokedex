@@ -121,9 +121,9 @@
                                     <constraint firstAttribute="bottom" secondItem="Mwl-mO-gRw" secondAttribute="bottom" constant="5" id="zhv-pf-xEM"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v" userLabel="Middle line div">
                                 <rect key="frame" x="186.66666666666666" y="203" width="20" height="615"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
                                 </constraints>
