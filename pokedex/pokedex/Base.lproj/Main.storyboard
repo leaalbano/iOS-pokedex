@@ -8,12 +8,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First Pokemon-->
         <scene sceneID="Eq7-bD-DHS">
             <objects>
-                <viewController id="aVS-1m-5bR" sceneMemberID="viewController">
+                <viewController id="aVS-1m-5bR" userLabel="First Pokemon" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KDc-WP-xVb">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Y8P-zM-4Ac"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -41,7 +41,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <searchBar contentMode="redraw" placeholder="Enter Search Here" translatesAutoresizingMaskIntoConstraints="NO" id="FI4-ap-5uM">
-                                        <rect key="frame" x="28" y="131.33333333333334" width="337" height="56"/>
+                                        <rect key="frame" x="28" y="131" width="337" height="56"/>
                                         <color key="barTintColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -68,7 +68,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2nd Pokemon"/>
                                         <connections>
-                                            <segue destination="Uq7-Ad-JsU" kind="presentation" id="orc-fi-Tp1"/>
+                                            <segue destination="Uq7-Ad-JsU" kind="presentation" modalPresentationStyle="fullScreen" id="orc-fi-Tp1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -83,7 +83,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="3rd Pokemon"/>
                                         <connections>
-                                            <segue destination="RWZ-ok-YAA" kind="presentation" id="yFS-ui-3qg"/>
+                                            <segue destination="RWZ-ok-YAA" kind="presentation" modalPresentationStyle="fullScreen" id="yFS-ui-3qg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -98,7 +98,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="4th Pokemon"/>
                                         <connections>
-                                            <segue destination="TFd-WV-Puf" kind="presentation" id="yfs-vy-Nhn"/>
+                                            <segue destination="TFd-WV-Puf" kind="presentation" modalPresentationStyle="fullScreen" id="yfs-vy-Nhn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -113,7 +113,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="1st Pokemon"/>
                                         <connections>
-                                            <segue destination="aVS-1m-5bR" kind="presentation" id="3wO-MW-Csb"/>
+                                            <segue destination="aVS-1m-5bR" kind="presentation" modalPresentationStyle="fullScreen" id="3wO-MW-Csb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -150,12 +150,12 @@
             </objects>
             <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
+        <!--4th Pokemon-->
         <scene sceneID="CYN-oM-FjW">
             <objects>
-                <viewController id="TFd-WV-Puf" sceneMemberID="viewController">
+                <viewController id="TFd-WV-Puf" userLabel="4th Pokemon" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x9G-df-XEo">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="mWV-WE-co2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -165,12 +165,12 @@
             </objects>
             <point key="canvasLocation" x="795" y="787"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Pokemon-->
         <scene sceneID="7fM-Sj-65d">
             <objects>
-                <viewController id="Uq7-Ad-JsU" sceneMemberID="viewController">
+                <viewController id="Uq7-Ad-JsU" userLabel="Second Pokemon" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="5HF-m4-bvL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -180,12 +180,12 @@
             </objects>
             <point key="canvasLocation" x="795" y="-390"/>
         </scene>
-        <!--View Controller-->
+        <!--Third Pokemon-->
         <scene sceneID="Zk5-QC-NTW">
             <objects>
-                <viewController id="RWZ-ok-YAA" sceneMemberID="viewController">
+                <viewController id="RWZ-ok-YAA" userLabel="Third Pokemon" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="35x-cd-468">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="1X3-Pf-Ul1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
