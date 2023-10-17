@@ -31,17 +31,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg" userLabel="Red Header">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg" userLabel="Red Header">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTD-eA-ew0">
-                                        <rect key="frame" x="28" y="87" width="337" height="39.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTD-eA-ew0">
+                                        <rect key="frame" x="20" y="80" width="353" height="39.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="34"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <searchBar contentMode="redraw" placeholder="Enter Search Here" translatesAutoresizingMaskIntoConstraints="NO" id="FI4-ap-5uM">
-                                        <rect key="frame" x="28" y="131" width="337" height="56"/>
+                                        <rect key="frame" x="20" y="129.33333333333334" width="353" height="56"/>
                                         <color key="barTintColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -51,20 +51,21 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leadingMargin" constant="20" id="08z-mg-YUD"/>
-                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="top" secondItem="sTD-eA-ew0" secondAttribute="bottom" constant="5" id="Cpe-T6-wpd"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="sTD-eA-ew0" secondAttribute="trailing" constant="20" id="XkW-2p-Fc2"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="FI4-ap-5uM" secondAttribute="trailing" constant="20" id="deV-EU-voG"/>
-                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leadingMargin" constant="20" id="hlD-Lz-9Pd"/>
-                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="topMargin" constant="20" id="nDS-sJ-eK6"/>
+                                    <constraint firstAttribute="trailing" secondItem="FI4-ap-5uM" secondAttribute="trailing" constant="20" id="6gC-iK-yng"/>
+                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="top" secondItem="sTD-eA-ew0" secondAttribute="bottom" constant="10" id="Rbr-vx-10U"/>
+                                    <constraint firstAttribute="trailing" secondItem="sTD-eA-ew0" secondAttribute="trailing" constant="20" id="aEa-8L-87y"/>
+                                    <constraint firstAttribute="width" constant="393" id="bY8-e4-Ety"/>
+                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leading" constant="20" id="fLg-P8-rRL"/>
+                                    <constraint firstItem="FI4-ap-5uM" firstAttribute="leading" secondItem="leT-Tg-fcg" secondAttribute="leading" constant="20" id="gat-9V-4wm"/>
+                                    <constraint firstAttribute="height" constant="203" id="nMB-Pg-IT8"/>
+                                    <constraint firstItem="sTD-eA-ew0" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="top" constant="80" id="pd2-Ze-TaW"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2f-uY-PJP" userLabel="Top Right Pokemon">
-                                <rect key="frame" x="204" y="258" width="169" height="200"/>
+                                <rect key="frame" x="211.66666666666663" y="253" width="161.33333333333337" height="200"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGZ-IY-y5h">
-                                        <rect key="frame" x="20" y="157" width="129" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGZ-IY-y5h">
+                                        <rect key="frame" x="10" y="160" width="141.33333333333334" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2nd Pokemon"/>
                                         <connections>
@@ -73,28 +74,18 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gvl-ZX-Fla" userLabel="Bottom Left Pokemon">
-                                <rect key="frame" x="16" y="490" width="180" height="200"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-xs-DRe">
-                                        <rect key="frame" x="28" y="157" width="126" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="3rd Pokemon"/>
-                                        <connections>
-                                            <segue destination="RWZ-ok-YAA" kind="presentation" modalPresentationStyle="fullScreen" id="yFS-ui-3qg"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="iGZ-IY-y5h" firstAttribute="leading" secondItem="J2f-uY-PJP" secondAttribute="leading" constant="10" id="Htk-gA-D4D"/>
+                                    <constraint firstAttribute="trailing" secondItem="iGZ-IY-y5h" secondAttribute="trailing" constant="10" id="TUO-5Y-AmG"/>
+                                    <constraint firstAttribute="height" constant="200" id="iQh-Pg-QlQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="iGZ-IY-y5h" secondAttribute="bottom" constant="5" id="koQ-du-uD9"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfC-nk-BUP" userLabel="Bottom Right Pokemon">
-                                <rect key="frame" x="206" y="490" width="167" height="200"/>
+                                <rect key="frame" x="211.66666666666663" y="473" width="161.33333333333337" height="200"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLY-K9-Pa4">
-                                        <rect key="frame" x="21" y="157" width="126" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLY-K9-Pa4">
+                                        <rect key="frame" x="10" y="160" width="141.33333333333334" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="4th Pokemon"/>
                                         <connections>
@@ -103,13 +94,18 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uLY-K9-Pa4" secondAttribute="trailing" constant="10" id="5Gg-KQ-jdZ"/>
+                                    <constraint firstItem="uLY-K9-Pa4" firstAttribute="leading" secondItem="pfC-nk-BUP" secondAttribute="leading" constant="10" id="bVj-CV-dW0"/>
+                                    <constraint firstAttribute="height" constant="200" id="dRh-Wd-fQi"/>
+                                    <constraint firstAttribute="bottom" secondItem="uLY-K9-Pa4" secondAttribute="bottom" constant="5" id="ssH-WB-ubn"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WqM-KW-nkF" userLabel="Top left Pokemon">
-                                <rect key="frame" x="16" y="258" width="180" height="200"/>
+                                <rect key="frame" x="20" y="253" width="161.66666666666666" height="200"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-mO-gRw">
-                                        <rect key="frame" x="30" y="157" width="121" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-mO-gRw">
+                                        <rect key="frame" x="10" y="160" width="141.66666666666666" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="1st Pokemon"/>
                                         <connections>
@@ -118,31 +114,62 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Mwl-mO-gRw" firstAttribute="leading" secondItem="WqM-KW-nkF" secondAttribute="leading" constant="10" id="1EE-FW-OdH"/>
+                                    <constraint firstAttribute="height" constant="200" id="MYm-k8-kad"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mwl-mO-gRw" secondAttribute="trailing" constant="10" id="Yxv-s7-lnd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mwl-mO-gRw" secondAttribute="bottom" constant="5" id="zhv-pf-xEM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v">
+                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="615"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gvl-ZX-Fla" userLabel="Bottom Left Pokemon">
+                                <rect key="frame" x="20" y="473" width="161.66666666666666" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-xs-DRe">
+                                        <rect key="frame" x="10" y="160" width="141.66666666666666" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="3rd Pokemon"/>
+                                        <connections>
+                                            <segue destination="RWZ-ok-YAA" kind="presentation" modalPresentationStyle="fullScreen" id="yFS-ui-3qg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GC0-xs-DRe" secondAttribute="bottom" constant="5" id="cq9-1R-SbR"/>
+                                    <constraint firstAttribute="height" constant="200" id="hz3-Oh-UMw"/>
+                                    <constraint firstItem="GC0-xs-DRe" firstAttribute="leading" secondItem="Gvl-ZX-Fla" secondAttribute="leading" constant="10" id="ur3-WI-RXm"/>
+                                    <constraint firstAttribute="trailing" secondItem="GC0-xs-DRe" secondAttribute="trailing" constant="10" id="yfR-4q-t45"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pfC-nk-BUP" firstAttribute="leading" secondItem="Gvl-ZX-Fla" secondAttribute="trailing" constant="10" id="1G9-Ls-CrK"/>
-                            <constraint firstItem="leT-Tg-fcg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1MB-X6-BUJ"/>
-                            <constraint firstItem="WqM-KW-nkF" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="bottom" constant="55" id="1bf-f0-lZO"/>
-                            <constraint firstItem="J2f-uY-PJP" firstAttribute="bottom" secondItem="WqM-KW-nkF" secondAttribute="bottom" id="6wb-vv-S0X"/>
-                            <constraint firstItem="J2f-uY-PJP" firstAttribute="leading" secondItem="WqM-KW-nkF" secondAttribute="trailing" constant="8" symbolic="YES" id="8kD-3J-Tee"/>
-                            <constraint firstItem="pfC-nk-BUP" firstAttribute="bottom" secondItem="Gvl-ZX-Fla" secondAttribute="bottom" id="CNw-LL-MMP"/>
-                            <constraint firstItem="J2f-uY-PJP" firstAttribute="top" secondItem="WqM-KW-nkF" secondAttribute="top" id="DLW-J6-VpA"/>
-                            <constraint firstItem="pfC-nk-BUP" firstAttribute="top" secondItem="Gvl-ZX-Fla" secondAttribute="top" id="GhY-UI-idS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leT-Tg-fcg" secondAttribute="trailing" id="PmA-lg-hnm"/>
-                            <constraint firstItem="pfC-nk-BUP" firstAttribute="trailing" secondItem="J2f-uY-PJP" secondAttribute="trailing" id="ZLD-5S-dqh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gvl-ZX-Fla" secondAttribute="bottom" constant="128" id="gzI-2C-iNd"/>
-                            <constraint firstItem="Gvl-ZX-Fla" firstAttribute="leading" secondItem="WqM-KW-nkF" secondAttribute="leading" id="hRu-XI-GnU"/>
-                            <constraint firstAttribute="trailing" secondItem="WqM-KW-nkF" secondAttribute="trailing" constant="197" id="kil-Ic-Fay"/>
-                            <constraint firstItem="Gvl-ZX-Fla" firstAttribute="trailing" secondItem="WqM-KW-nkF" secondAttribute="trailing" id="mGG-Rz-mbe"/>
-                            <constraint firstItem="WqM-KW-nkF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="niq-ku-EL0"/>
-                            <constraint firstItem="leT-Tg-fcg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qS1-u6-zkn"/>
-                            <constraint firstItem="pfC-nk-BUP" firstAttribute="top" secondItem="J2f-uY-PJP" secondAttribute="bottom" constant="32" id="rhv-qM-EDU"/>
-                            <constraint firstAttribute="bottom" secondItem="WqM-KW-nkF" secondAttribute="bottom" constant="394" id="tNT-V4-SKh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfC-nk-BUP" secondAttribute="trailing" constant="20" id="wKL-99-bUN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leT-Tg-fcg" secondAttribute="bottom" constant="615" id="zAX-D9-zkL"/>
+                            <constraint firstItem="WqM-KW-nkF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="43q-cm-0Cp"/>
+                            <constraint firstItem="leT-Tg-fcg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CvC-cE-k84"/>
+                            <constraint firstItem="leT-Tg-fcg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cz5-Ov-PIz"/>
+                            <constraint firstItem="pfC-nk-BUP" firstAttribute="top" secondItem="J2f-uY-PJP" secondAttribute="bottom" constant="20" id="D7z-7S-VU3"/>
+                            <constraint firstItem="J2f-uY-PJP" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="bottom" constant="50" id="GKS-nt-nMH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CD2-bT-p0v" secondAttribute="bottom" id="MFP-zO-GUW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J2f-uY-PJP" secondAttribute="trailing" constant="20" id="WjA-Gb-XFg"/>
+                            <constraint firstItem="CD2-bT-p0v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a6o-KS-qnq"/>
+                            <constraint firstItem="J2f-uY-PJP" firstAttribute="leading" secondItem="CD2-bT-p0v" secondAttribute="trailing" constant="5" id="bVQ-Yr-QJL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfC-nk-BUP" secondAttribute="trailing" constant="20" id="cUF-bB-YqF"/>
+                            <constraint firstItem="leT-Tg-fcg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eRl-ir-U2u"/>
+                            <constraint firstItem="WqM-KW-nkF" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="bottom" constant="50" id="hyg-G7-Icn"/>
+                            <constraint firstItem="CD2-bT-p0v" firstAttribute="leading" secondItem="WqM-KW-nkF" secondAttribute="trailing" constant="5" id="jPK-ah-Afn"/>
+                            <constraint firstItem="CD2-bT-p0v" firstAttribute="leading" secondItem="Gvl-ZX-Fla" secondAttribute="trailing" constant="5" id="jRY-hj-WPo"/>
+                            <constraint firstItem="Gvl-ZX-Fla" firstAttribute="top" secondItem="WqM-KW-nkF" secondAttribute="bottom" constant="20" id="np7-MS-MSr"/>
+                            <constraint firstItem="CD2-bT-p0v" firstAttribute="top" secondItem="leT-Tg-fcg" secondAttribute="bottom" id="t9J-Tl-PBe"/>
+                            <constraint firstItem="pfC-nk-BUP" firstAttribute="leading" secondItem="CD2-bT-p0v" secondAttribute="trailing" constant="5" id="tkP-qY-8a0"/>
+                            <constraint firstItem="Gvl-ZX-Fla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xre-4g-vf2"/>
                         </constraints>
                     </view>
                 </viewController>
