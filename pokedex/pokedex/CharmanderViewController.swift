@@ -14,6 +14,9 @@ class CharmanderViewController: UIViewController{
         print("The CharmanderViewController loaded its view!")
     }
     
+    
+    
+    
     override func loadView() {
         super.loadView()
         
@@ -24,8 +27,8 @@ class CharmanderViewController: UIViewController{
             for: UIControl.State.normal
         )
         
-        self.button.backgroundColor = UIColor.systemRed
         
+        self.button.backgroundColor = UIColor.systemRed
         
         self.button.frame = CGRect(
             x: 20, y: 20,
@@ -38,10 +41,10 @@ class CharmanderViewController: UIViewController{
             for: UIControl.Event.touchUpInside
         )
         
+       
         self.view.addSubview(self.button)
         
         
-        // Constraints for the homepage button
         
         let bCenterX = self.button.centerXAnchor.constraint(
             equalTo: self.view.safeAreaLayoutGuide.centerXAnchor
@@ -54,4 +57,13 @@ class CharmanderViewController: UIViewController{
         bBottomCon.isActive = true
     }
     
+    
+        
+    @IBAction func buttonSegue(_ sender: UIButton)
+    {
+        self.performSegue(withIdentifier: "HomePage", sender: sender)
+    }
+    
+   
+        
 }
