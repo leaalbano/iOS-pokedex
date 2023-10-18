@@ -245,7 +245,7 @@
         <!--4th Pokemon-->
         <scene sceneID="CYN-oM-FjW">
             <objects>
-                <viewController id="TFd-WV-Puf" userLabel="4th Pokemon" sceneMemberID="viewController">
+                <viewController id="TFd-WV-Puf" userLabel="4th Pokemon" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x9G-df-XEo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,7 +285,7 @@
         <!--Second Pokemon-->
         <scene sceneID="7fM-Sj-65d">
             <objects>
-                <viewController id="Uq7-Ad-JsU" userLabel="Second Pokemon" sceneMemberID="viewController">
+                <viewController id="Uq7-Ad-JsU" userLabel="Second Pokemon" customClass="CharmanderViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
