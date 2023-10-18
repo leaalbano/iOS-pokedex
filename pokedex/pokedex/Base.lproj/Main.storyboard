@@ -16,22 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6g7-ox-sIU" userLabel="Pokemon Name area" colorLabel="IBBuiltInLabel-Red">
-                                <rect key="frame" x="0.0" y="83" width="393" height="83"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjy-FN-8Fk">
+                                <rect key="frame" x="142.66666666666666" y="718" width="108" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Homepage"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="j8O-r5-VvU"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJe-mv-xpe" userLabel="Red Header">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.23137254900000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="4z8-vB-WNi"/>
-                                    <constraint firstAttribute="width" constant="393" id="75S-Es-mOj"/>
+                                    <constraint firstAttribute="width" constant="393" id="1dt-mY-I29"/>
+                                    <constraint firstAttribute="height" constant="203" id="DIe-zb-J8r"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y8P-zM-4Ac"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6g7-ox-sIU" firstAttribute="top" secondItem="Y8P-zM-4Ac" secondAttribute="top" constant="83" id="FZ6-pT-IRR"/>
-                            <constraint firstItem="6g7-ox-sIU" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="fA3-nZ-9v3"/>
+                            <constraint firstItem="Y8P-zM-4Ac" firstAttribute="trailing" secondItem="fJe-mv-xpe" secondAttribute="trailing" id="KnB-bR-Auf"/>
+                            <constraint firstItem="Y8P-zM-4Ac" firstAttribute="bottom" secondItem="Gjy-FN-8Fk" secondAttribute="bottom" constant="50" id="NO3-5Q-Puh"/>
+                            <constraint firstItem="Gjy-FN-8Fk" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="W7H-1S-RhW"/>
+                            <constraint firstItem="fJe-mv-xpe" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" id="kHm-KT-043"/>
+                            <constraint firstItem="fJe-mv-xpe" firstAttribute="top" secondItem="Y8P-zM-4Ac" secondAttribute="top" id="kYm-GG-jbS"/>
+                            <constraint firstItem="fJe-mv-xpe" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="uj8-Pt-Vei"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ff-08-L6h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +56,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="HomePage" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg" userLabel="Red Header">
@@ -163,7 +177,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v" userLabel="Middle line div">
-                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="615"/>
+                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="639"/>
                                 <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
@@ -222,6 +236,7 @@
                             <constraint firstItem="Gvl-ZX-Fla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xre-4g-vf2"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="L2Z-aQ-Ep3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,8 +249,33 @@
                     <view key="view" contentMode="scaleToFill" id="x9G-df-XEo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyA-1a-Efj">
+                                <rect key="frame" x="142.66666666666666" y="767" width="108" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Homepage"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xGo-Qx-9Rd"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOa-DO-xKp" userLabel="Red Header">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.23137254900000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="QGA-lr-eDQ"/>
+                                    <constraint firstAttribute="height" constant="203" id="VlC-7N-N6l"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mWV-WE-co2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gyA-1a-Efj" firstAttribute="centerX" secondItem="x9G-df-XEo" secondAttribute="centerX" id="49N-XK-WON"/>
+                            <constraint firstItem="mWV-WE-co2" firstAttribute="trailing" secondItem="xOa-DO-xKp" secondAttribute="trailing" id="F4k-kE-DR2"/>
+                            <constraint firstItem="mWV-WE-co2" firstAttribute="bottom" secondItem="gyA-1a-Efj" secondAttribute="bottom" constant="50" id="jft-XC-g7Q"/>
+                            <constraint firstItem="xOa-DO-xKp" firstAttribute="top" secondItem="mWV-WE-co2" secondAttribute="top" id="n1q-Xo-PK1"/>
+                            <constraint firstItem="xOa-DO-xKp" firstAttribute="leading" secondItem="mWV-WE-co2" secondAttribute="leading" id="vR1-5A-P3d"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXw-kn-ZKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -264,8 +304,32 @@
                     <view key="view" contentMode="scaleToFill" id="35x-cd-468">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vb-Vy-K0N">
+                                <rect key="frame" x="142.66666666666666" y="767" width="108" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Homepage"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="z03-ag-W21"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oV-g1-gXZ" userLabel="Red Header">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+                                <color key="backgroundColor" red="0.83137254901960778" green="0.23137254901960785" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="203" id="7x1-3d-Mjc"/>
+                                    <constraint firstAttribute="width" constant="393" id="MdV-ea-oLq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="1X3-Pf-Ul1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4oV-g1-gXZ" firstAttribute="centerX" secondItem="35x-cd-468" secondAttribute="centerX" id="5wy-mR-Adx"/>
+                            <constraint firstItem="1X3-Pf-Ul1" firstAttribute="bottom" secondItem="0Vb-Vy-K0N" secondAttribute="bottom" constant="50" id="BUY-cE-JqM"/>
+                            <constraint firstItem="0Vb-Vy-K0N" firstAttribute="centerX" secondItem="35x-cd-468" secondAttribute="centerX" id="dFd-4N-J3L"/>
+                            <constraint firstItem="4oV-g1-gXZ" firstAttribute="top" secondItem="1X3-Pf-Ul1" secondAttribute="top" id="jb5-fH-Gb7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnz-tw-R6X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -273,6 +337,9 @@
             <point key="canvasLocation" x="-848" y="729"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="xGo-Qx-9Rd"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="pokemon1" width="475" height="475"/>
         <image name="pokemon2" width="475" height="475"/>
@@ -280,9 +347,6 @@
         <image name="pokemon4" width="475" height="475"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
