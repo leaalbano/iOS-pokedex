@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First Pokemon-->
+        <!--Jigglypuff -->
         <scene sceneID="Eq7-bD-DHS">
             <objects>
-                <viewController id="aVS-1m-5bR" userLabel="First Pokemon" sceneMemberID="viewController">
+                <viewController id="aVS-1m-5bR" userLabel="Jigglypuff " sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KDc-WP-xVb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,7 +67,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="HomePage" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg" userLabel="Red Header">
@@ -188,7 +188,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v" userLabel="Middle line div">
-                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="639"/>
+                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="600"/>
                                 <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
         </scene>
-        <!--4th Pokemon-->
+        <!--Bulbasaur-->
         <scene sceneID="CYN-oM-FjW">
             <objects>
-                <viewController id="TFd-WV-Puf" userLabel="4th Pokemon" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TFd-WV-Puf" userLabel="Bulbasaur" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x9G-df-XEo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,11 +304,11 @@
             </objects>
             <point key="canvasLocation" x="795" y="787"/>
         </scene>
-        <!--Second Pokemon-->
+        <!--Charmander-->
         <scene sceneID="7fM-Sj-65d">
             <objects>
-                <viewController id="Uq7-Ad-JsU" userLabel="Second Pokemon" customClass="CharmanderViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks">
+                <viewController id="Uq7-Ad-JsU" userLabel="Charmander" customClass="CharmanderViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks" customClass="Char">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="5HF-m4-bvL"/>
@@ -319,10 +319,10 @@
             </objects>
             <point key="canvasLocation" x="795" y="-390"/>
         </scene>
-        <!--Third Pokemon-->
+        <!--Piplup-->
         <scene sceneID="Zk5-QC-NTW">
             <objects>
-                <viewController id="RWZ-ok-YAA" userLabel="Third Pokemon" sceneMemberID="viewController">
+                <viewController id="RWZ-ok-YAA" userLabel="Piplup" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="35x-cd-468">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,7 +371,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xGo-Qx-9Rd"/>
+        <segue reference="j8O-r5-VvU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pokemon1" width="475" height="475"/>
