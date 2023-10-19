@@ -4,8 +4,10 @@ class CharmanderViewController: UIViewController{
     
     var button: UIButton!
     
-    @objc func buttonClicked(_ b: UIButton) {
+    @IBAction func buttonClicked(_ sender: UIButton)
+    {
         print("The button was clicked!")
+        self.performSegue(withIdentifier: "HomePage", sender: self)
     }
     
     override func viewDidLoad() {
@@ -44,9 +46,17 @@ class CharmanderViewController: UIViewController{
         
         view.addSubview(pokemonCharater)
         
-        
-        //Button Config
-        self.button.backgroundColor = UIColor.systemRed
+        //Button colors configed
+        self.button.setTitleColor(.white, for: .normal)
+        self.button.backgroundColor = UIColor(red: 212/255.0, green: 59/255.0, blue: 71/255.0, alpha: 1)
+        //Button edges are set
+        self.button.layer.cornerRadius = 8
+        self.button.contentEdgeInsets = UIEdgeInsets(
+                    top: 10,
+                    left: 20,
+                    bottom: 10,
+                    right: 20
+                )
         //Button location
         self.button.frame = CGRect(
             x: 20, y: 20,
@@ -75,12 +85,6 @@ class CharmanderViewController: UIViewController{
         bBottomCon.isActive = true
     }
     
-    
-        
-    @IBAction func buttonSegue(_ sender: UIButton)
-    {
-        self.performSegue(withIdentifier: "HomePage", sender: sender)
-    }
     
    
         
