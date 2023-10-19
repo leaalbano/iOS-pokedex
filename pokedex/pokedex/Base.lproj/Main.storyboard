@@ -44,17 +44,27 @@
                                     <constraint firstAttribute="trailingMargin" secondItem="N8P-xw-6Ca" secondAttribute="trailing" constant="197.66999999999999" id="gO5-ur-6Ok"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzc-td-X0S">
+                                <rect key="frame" x="281" y="211" width="96" height="66"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y8P-zM-4Ac"/>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Y8P-zM-4Ac" firstAttribute="bottom" secondItem="Dzc-td-X0S" secondAttribute="bottom" constant="526" id="0Dm-f8-bcw"/>
                             <constraint firstItem="Y8P-zM-4Ac" firstAttribute="trailing" secondItem="fJe-mv-xpe" secondAttribute="trailing" id="KnB-bR-Auf"/>
                             <constraint firstItem="Y8P-zM-4Ac" firstAttribute="bottom" secondItem="Gjy-FN-8Fk" secondAttribute="bottom" constant="50" id="NO3-5Q-Puh"/>
                             <constraint firstItem="Gjy-FN-8Fk" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="W7H-1S-RhW"/>
                             <constraint firstItem="fJe-mv-xpe" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" id="kHm-KT-043"/>
                             <constraint firstItem="fJe-mv-xpe" firstAttribute="top" secondItem="Y8P-zM-4Ac" secondAttribute="top" id="kYm-GG-jbS"/>
+                            <constraint firstItem="Dzc-td-X0S" firstAttribute="trailing" secondItem="KDc-WP-xVb" secondAttribute="trailingMargin" id="lqH-fx-IGc"/>
                             <constraint firstItem="N8P-xw-6Ca" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="20" id="mv8-NC-Tga"/>
+                            <constraint firstItem="Dzc-td-X0S" firstAttribute="top" secondItem="fJe-mv-xpe" secondAttribute="bottom" constant="8" id="t1x-RH-d1C"/>
                             <constraint firstItem="fJe-mv-xpe" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="uj8-Pt-Vei"/>
+                            <constraint firstItem="Dzc-td-X0S" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="zfO-vJ-eDB"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -291,6 +301,13 @@
                                     <constraint firstItem="XZY-Nb-elf" firstAttribute="top" secondItem="xOa-DO-xKp" secondAttribute="topMargin" constant="130" id="vLO-b0-K8z"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="45 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKp-v8-pEU">
+                                <rect key="frame" x="293" y="211" width="84" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mWV-WE-co2"/>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -362,6 +379,12 @@
                                     <constraint firstItem="FPq-CI-Iiu" firstAttribute="top" secondItem="4oV-g1-gXZ" secondAttribute="topMargin" constant="130" id="heJ-3a-AoF"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="53 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVd-og-pNY">
+                                <rect key="frame" x="293" y="211" width="84" height="35"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1X3-Pf-Ul1"/>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -369,6 +392,8 @@
                             <constraint firstItem="4oV-g1-gXZ" firstAttribute="centerX" secondItem="35x-cd-468" secondAttribute="centerX" id="5wy-mR-Adx"/>
                             <constraint firstItem="1X3-Pf-Ul1" firstAttribute="bottom" secondItem="0Vb-Vy-K0N" secondAttribute="bottom" constant="50" id="BUY-cE-JqM"/>
                             <constraint firstItem="FPq-CI-Iiu" firstAttribute="leading" secondItem="1X3-Pf-Ul1" secondAttribute="leading" constant="20" id="BtR-KB-8HW"/>
+                            <constraint firstItem="TVd-og-pNY" firstAttribute="top" secondItem="4oV-g1-gXZ" secondAttribute="bottom" constant="8" id="HLR-LC-yRX"/>
+                            <constraint firstItem="TVd-og-pNY" firstAttribute="trailing" secondItem="35x-cd-468" secondAttribute="trailingMargin" id="PXu-Rf-z0e"/>
                             <constraint firstItem="0Vb-Vy-K0N" firstAttribute="centerX" secondItem="35x-cd-468" secondAttribute="centerX" id="dFd-4N-J3L"/>
                             <constraint firstItem="4oV-g1-gXZ" firstAttribute="top" secondItem="1X3-Pf-Ul1" secondAttribute="top" id="jb5-fH-Gb7"/>
                         </constraints>
@@ -380,7 +405,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VFs-Qq-45O"/>
+        <segue reference="xGo-Qx-9Rd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pokemon1" width="475" height="475"/>
