@@ -93,7 +93,7 @@
                             <constraint firstItem="qsh-ba-7wB" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="16" id="UxT-vz-2Jp"/>
                             <constraint firstItem="Y8P-zM-4Ac" firstAttribute="trailing" secondItem="fla-Jm-vtD" secondAttribute="trailing" constant="51" id="V6J-bb-qZs"/>
                             <constraint firstItem="Gjy-FN-8Fk" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="W7H-1S-RhW"/>
-                            <constraint firstItem="fla-Jm-vtD" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="ax9-Km-S2r"/>
+                            <constraint firstItem="fla-Jm-vtD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="ax9-Km-S2r"/>
                             <constraint firstItem="Y8P-zM-4Ac" firstAttribute="trailing" secondItem="kym-vw-aa0" secondAttribute="trailing" constant="17.666666666666686" id="eWM-pw-EuF"/>
                             <constraint firstItem="qsh-ba-7wB" firstAttribute="top" secondItem="fJe-mv-xpe" secondAttribute="bottom" constant="8" id="jGZ-uS-fQk"/>
                             <constraint firstItem="fJe-mv-xpe" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" id="kHm-KT-043"/>
@@ -102,7 +102,7 @@
                             <constraint firstItem="N8P-xw-6Ca" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="20" id="mv8-NC-Tga"/>
                             <constraint firstItem="Dzc-td-X0S" firstAttribute="top" secondItem="fJe-mv-xpe" secondAttribute="bottom" constant="8" id="t1x-RH-d1C"/>
                             <constraint firstItem="fJe-mv-xpe" firstAttribute="centerX" secondItem="KDc-WP-xVb" secondAttribute="centerX" id="uj8-Pt-Vei"/>
-                            <constraint firstItem="y0n-gG-lTe" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="wYs-c5-Z6a"/>
+                            <constraint firstItem="y0n-gG-lTe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="wYs-c5-Z6a"/>
                             <constraint firstItem="Dzc-td-X0S" firstAttribute="leading" secondItem="Y8P-zM-4Ac" secondAttribute="leading" constant="281" id="zfO-vJ-eDB"/>
                         </constraints>
                     </view>
@@ -116,9 +116,9 @@
         <!--HomePage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="HomePage" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" userLabel="HomePage" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leT-Tg-fcg" userLabel="Red Header">
@@ -239,7 +239,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v" userLabel="Middle line div">
-                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="639"/>
+                                <rect key="frame" x="186.66666666666666" y="203" width="20" height="649"/>
                                 <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
