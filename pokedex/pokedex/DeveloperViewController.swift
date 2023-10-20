@@ -1,6 +1,13 @@
+//
+//  DeveloperViewController.swift
+//  pokedex
+//
+//  Created by Alejandro on 10/20/23.
+//
+
 import UIKit
 
-class CharmanderViewController: UIViewController{
+class DeveloperViewController: UIViewController {
     
     var button: UIButton!
     
@@ -12,11 +19,9 @@ class CharmanderViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("The CharmanderViewController loaded its view!")
+        // Do any additional setup after loading the view.
+        print("The DeveloperViewController loaded its view!")
     }
-    
-    
     
     
     override func loadView() {
@@ -37,14 +42,6 @@ class CharmanderViewController: UIViewController{
         let HeaderView = UIView(frame: headerFrame)
         HeaderView.backgroundColor = UIColor(red: 212/255.0, green: 59/255.0, blue: 71/255.0, alpha: 1)
         view.addSubview(HeaderView)
-        
-        //TEXT IN HEADER (CHARMANDER LABEL 
-        let pokemonCharater = UILabel(frame: CGRectMake(20, 80, 353, 39.33))
-        pokemonCharater.font = UIFont.systemFont(ofSize:31 , weight: .bold)
-        pokemonCharater.textColor = UIColor.white
-        pokemonCharater.text = "Charmander"
-        
-        view.addSubview(pokemonCharater)
         
         //Button colors configed
         self.button.setTitleColor(.white, for: .normal)
@@ -72,7 +69,6 @@ class CharmanderViewController: UIViewController{
        
         self.view.addSubview(self.button)
         
-        
         //button constraints
         let bCenterX = self.button.centerXAnchor.constraint(
             equalTo: self.view.safeAreaLayoutGuide.centerXAnchor
@@ -84,8 +80,4 @@ class CharmanderViewController: UIViewController{
         bCenterX.isActive = true
         bBottomCon.isActive = true
     }
-    
-    
-   
-        
 }

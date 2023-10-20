@@ -300,6 +300,19 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-bT-p0v" userLabel="Middle line div">
                                 <rect key="frame" x="186.66666666666666" y="203" width="20" height="649"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ib-AU-hjY">
+                                        <rect key="frame" x="-58" y="554" width="136" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Devloper Page">
+                                            <color key="baseBackgroundColor" red="0.83137254900000002" green="0.23137254900000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="wfs-F0-QdZ" kind="presentation" id="j46-2S-ZEp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="vZd-ow-BdN"/>
@@ -367,8 +380,8 @@
         <!--Charmander-->
         <scene sceneID="7fM-Sj-65d">
             <objects>
-                <viewController id="Uq7-Ad-JsU" userLabel="Charmander" customClass="CharmanderViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks" customClass="Char">
+                <viewController id="Uq7-Ad-JsU" userLabel="Charmander" customClass="ViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iYN-y6-Lks" userLabel="View" customClass="Char">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="5HF-m4-bvL"/>
@@ -712,6 +725,25 @@
             </objects>
             <point key="canvasLocation" x="-848" y="687"/>
         </scene>
+        <!--Developer-->
+        <scene sceneID="HAK-hF-qYg">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="wfs-F0-QdZ" userLabel="Developer" customClass="DeveloperViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mCm-Uq-Xll">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="X1q-Tb-Rv4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X5b-jz-GjJ"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="HomePage" id="pJU-6u-2gd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esN-fb-M8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="908"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="EWG-Pa-vYh"/>
@@ -722,13 +754,13 @@
         <image name="pokemon3" width="475" height="475"/>
         <image name="pokemon4" width="475" height="475"/>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

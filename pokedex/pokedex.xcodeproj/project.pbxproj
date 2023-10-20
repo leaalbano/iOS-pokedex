@@ -16,7 +16,7 @@
 		5F271B612ADA29F5003FFE19 /* pokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F271B602ADA29F5003FFE19 /* pokedexTests.swift */; };
 		5F271B6B2ADA29F5003FFE19 /* pokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F271B6A2ADA29F5003FFE19 /* pokedexUITests.swift */; };
 		5F271B6D2ADA29F5003FFE19 /* pokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F271B6C2ADA29F5003FFE19 /* pokedexUITestsLaunchTests.swift */; };
-		B291CF542AE035E00030A789 /* CharmanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B291CF532AE035E00030A789 /* CharmanderViewController.swift */; };
+		B223513A2AE2F80B001283D2 /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22351392AE2F80B001283D2 /* DeveloperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		5F271B662ADA29F5003FFE19 /* pokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F271B6A2ADA29F5003FFE19 /* pokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexUITests.swift; sourceTree = "<group>"; };
 		5F271B6C2ADA29F5003FFE19 /* pokedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B291CF532AE035E00030A789 /* CharmanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharmanderViewController.swift; sourceTree = "<group>"; };
+		B22351392AE2F80B001283D2 /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				5F271B492ADA29EF003FFE19 /* AppDelegate.swift */,
 				5F271B4B2ADA29EF003FFE19 /* SceneDelegate.swift */,
 				5F271B4D2ADA29EF003FFE19 /* ViewController.swift */,
+				B22351392AE2F80B001283D2 /* DeveloperViewController.swift */,
 				5F271B4F2ADA29EF003FFE19 /* Main.storyboard */,
-				B291CF532AE035E00030A789 /* CharmanderViewController.swift */,
 				5F271B522ADA29F5003FFE19 /* Assets.xcassets */,
 				5F271B542ADA29F5003FFE19 /* LaunchScreen.storyboard */,
 				5F271B572ADA29F5003FFE19 /* Info.plist */,
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F271B4E2ADA29EF003FFE19 /* ViewController.swift in Sources */,
-				B291CF542AE035E00030A789 /* CharmanderViewController.swift in Sources */,
+				B223513A2AE2F80B001283D2 /* DeveloperViewController.swift in Sources */,
 				5F271B4A2ADA29EF003FFE19 /* AppDelegate.swift in Sources */,
 				5F271B4C2ADA29EF003FFE19 /* SceneDelegate.swift in Sources */,
 			);
