@@ -43,6 +43,14 @@ class DeveloperViewController: UIViewController {
         HeaderView.backgroundColor = UIColor(red: 212/255.0, green: 59/255.0, blue: 71/255.0, alpha: 1)
         view.addSubview(HeaderView)
         
+        //TEXT IN HEADER (CHARMANDER LABEL
+        let developerTitle = UILabel(frame: CGRectMake(20, 80, 353, 39.33))
+        developerTitle.font = UIFont.systemFont(ofSize:31 , weight: .bold)
+        developerTitle.textColor = UIColor.white
+        developerTitle.text = "Developer"
+        
+        view.addSubview(developerTitle)
+        
         //Button colors configed
         self.button.setTitleColor(.white, for: .normal)
         self.button.backgroundColor = UIColor(red: 212/255.0, green: 59/255.0, blue: 71/255.0, alpha: 1)
