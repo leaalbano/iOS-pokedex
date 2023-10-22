@@ -33,18 +33,30 @@ class DeveloperViewController: UIViewController {
         // Background View
         self.view.backgroundColor = UIColor(red: 43/255.0, green: 41/255.0, blue: 44/255.0, alpha: 1)
         
-        // HEADER FRAME
-        let headerFrame = CGRect(x: 0 , y: 0 , width: 393 , height: 203)
-        let HeaderView = UIView(frame: headerFrame)
+        // HEADER VIEW with Auto Layout
+        let HeaderView = UIView()
+        HeaderView.translatesAutoresizingMaskIntoConstraints = false
         HeaderView.backgroundColor = UIColor(red: 212/255.0, green: 59/255.0, blue: 71/255.0, alpha: 1)
         view.addSubview(HeaderView)
         
+        // Constraints for HeaderView
+        let headerTop = HeaderView.topAnchor.constraint(equalTo: self.view.topAnchor)
+        let headerLeft = HeaderView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor)
+        let headerRight = HeaderView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
+        let headerHeight = HeaderView.heightAnchor.constraint(equalToConstant: 203)
+        NSLayoutConstraint.activate([headerTop, headerLeft, headerRight, headerHeight])
+        
         // TEXT IN HEADER (DEVELOPER LABEL)
-        let developerTitle = UILabel(frame: CGRect(x: 20, y: 80, width: 353, height: 39.33))
+        let developerTitle = UILabel()
+        developerTitle.translatesAutoresizingMaskIntoConstraints = false
         developerTitle.font = UIFont.systemFont(ofSize:31 , weight: .bold)
         developerTitle.textColor = UIColor.white
         developerTitle.text = "Developer"
-        view.addSubview(developerTitle)
+        HeaderView.addSubview(developerTitle)
+        
+        let dtCenterX = developerTitle.centerXAnchor.constraint(equalTo: HeaderView.centerXAnchor)
+        let dtCenterY = developerTitle.centerYAnchor.constraint(equalTo: HeaderView.centerYAnchor)
+        NSLayoutConstraint.activate([dtCenterX, dtCenterY])
         
         // Setting up NameLabel
         NameLabel = UILabel()
