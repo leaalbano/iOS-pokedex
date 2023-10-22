@@ -51,7 +51,7 @@ class DeveloperViewController: UIViewController {
         developerTitle.translatesAutoresizingMaskIntoConstraints = false
         developerTitle.font = UIFont.systemFont(ofSize:31 , weight: .bold)
         developerTitle.textColor = UIColor.white
-        developerTitle.text = "Developer"
+        developerTitle.text = "Developers"
         HeaderView.addSubview(developerTitle)
         
         let dtCenterX = developerTitle.centerXAnchor.constraint(equalTo: HeaderView.centerXAnchor)
