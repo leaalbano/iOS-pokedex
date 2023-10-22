@@ -849,7 +849,7 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="1ui-By-KO1"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail." translatesAutoresizingMaskIntoConstraints="NO" id="PVV-eq-60H">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail." translatesAutoresizingMaskIntoConstraints="NO" id="PVV-eq-60H">
                                 <rect key="frame" x="244" y="129" width="133" height="128"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -906,7 +906,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1ui-By-KO1"/>
+        <segue reference="pJU-6u-2gd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pokemon1" width="475" height="475"/>
