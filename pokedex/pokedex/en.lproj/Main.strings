@@ -1,0 +1,147 @@
+
+/* Class = "UIButton"; configuration.title = "Homepage"; ObjectID = "18U-K7-AjB"; */
+"18U-K7-AjB.configuration.title" = "Homepage";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "18U-K7-AjB"; */
+"18U-K7-AjB.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "Charmander"; ObjectID = "45I-7s-8Za"; */
+"45I-7s-8Za.text" = "Charmander";
+
+/* Class = "UILabel"; text = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."; ObjectID = "4Xd-xq-a7I"; */
+"4Xd-xq-a7I.text" = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.";
+
+/* Class = "UILabel"; text = "75 HP"; ObjectID = "63Y-Xs-t1P"; */
+"63Y-Xs-t1P.text" = "75 HP";
+
+/* Class = "UIButton"; configuration.title = "Developer Page"; ObjectID = "7ib-AU-hjY"; */
+"7ib-AU-hjY.configuration.title" = "Developer Page";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7ib-AU-hjY"; */
+"7ib-AU-hjY.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "Bulbasaur"; ObjectID = "AMe-uP-1K6"; */
+"AMe-uP-1K6.text" = "Bulbasaur";
+
+/* Class = "UILabel"; text = "62 HP"; ObjectID = "ARP-At-9en"; */
+"ARP-At-9en.text" = "62 HP";
+
+/* Class = "UILabel"; text = "70 HP"; ObjectID = "Dzc-td-X0S"; */
+"Dzc-td-X0S.text" = "70 HP";
+
+/* Class = "UIButton"; configuration.title = "Piplup"; ObjectID = "GC0-xs-DRe"; */
+"GC0-xs-DRe.configuration.title" = "Piplup";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GC0-xs-DRe"; */
+"GC0-xs-DRe.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Homepage"; ObjectID = "Gjy-FN-8Fk"; */
+"Gjy-FN-8Fk.configuration.title" = "Homepage";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gjy-FN-8Fk"; */
+"Gjy-FN-8Fk.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "NickName"; ObjectID = "Icz-zv-dP3"; */
+"Icz-zv-dP3.placeholder" = "NickName";
+
+/* Class = "UITextField"; text = "Piplup"; ObjectID = "Icz-zv-dP3"; */
+"Icz-zv-dP3.text" = "Piplup";
+
+/* Class = "UILabel"; text = "It doesn't seem like it likes to be taken care of. It's difficult to bond with since it won't listen to its Trainer."; ObjectID = "J9s-Q8-0st"; */
+"J9s-Q8-0st.text" = "It doesn't seem like it likes to be taken care of. It's difficult to bond with since it won't listen to its Trainer.";
+
+/* Class = "UITextField"; placeholder = "Nickname"; ObjectID = "Km2-R1-WGH"; */
+"Km2-R1-WGH.placeholder" = "Nickname";
+
+/* Class = "UITextField"; text = "Jigglypuff"; ObjectID = "Km2-R1-WGH"; */
+"Km2-R1-WGH.text" = "Jigglypuff";
+
+/* Class = "UIButton"; configuration.title = "Jigglypuff"; ObjectID = "Mwl-mO-gRw"; */
+"Mwl-mO-gRw.configuration.title" = "Jigglypuff";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Mwl-mO-gRw"; */
+"Mwl-mO-gRw.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Water"; ObjectID = "Qvk-96-hgQ"; */
+"Qvk-96-hgQ.configuration.title" = "Water";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Qvk-96-hgQ"; */
+"Qvk-96-hgQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "#0393"; ObjectID = "W61-hA-YdS"; */
+"W61-hA-YdS.text" = "#0393";
+
+/* Class = "UILabel"; text = "65 HP"; ObjectID = "fTN-mP-9ZJ"; */
+"fTN-mP-9ZJ.text" = "65 HP";
+
+/* Class = "UIButton"; configuration.title = "Grass"; ObjectID = "flV-Ik-elo"; */
+"flV-Ik-elo.configuration.title" = "Grass";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "flV-Ik-elo"; */
+"flV-Ik-elo.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Fairy"; ObjectID = "fla-Jm-vtD"; */
+"fla-Jm-vtD.configuration.title" = "Fairy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fla-Jm-vtD"; */
+"fla-Jm-vtD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "#0039"; ObjectID = "gli-OL-lsg"; */
+"gli-OL-lsg.text" = "#0039";
+
+/* Class = "UIButton"; configuration.title = "Charmander"; ObjectID = "iGZ-IY-y5h"; */
+"iGZ-IY-y5h.configuration.title" = "Charmander";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iGZ-IY-y5h"; */
+"iGZ-IY-y5h.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "#0004"; ObjectID = "iRh-bj-P8U"; */
+"iRh-bj-P8U.text" = "#0004";
+
+/* Class = "UILabel"; text = "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."; ObjectID = "lzO-c3-ppN"; */
+"lzO-c3-ppN.text" = "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.";
+
+/* Class = "UILabel"; text = "#0001"; ObjectID = "pQM-aK-nTU"; */
+"pQM-aK-nTU.text" = "#0001";
+
+/* Class = "UILabel"; text = "Pokedex"; ObjectID = "sTD-eA-ew0"; */
+"sTD-eA-ew0.text" = "Pokedex";
+
+/* Class = "UILabel"; text = "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."; ObjectID = "slT-In-Fxs"; */
+"slT-In-Fxs.text" = "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.";
+
+/* Class = "UIButton"; configuration.title = "Bulbasaur"; ObjectID = "uLY-K9-Pa4"; */
+"uLY-K9-Pa4.configuration.title" = "Bulbasaur";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uLY-K9-Pa4"; */
+"uLY-K9-Pa4.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Poison"; ObjectID = "vGo-0R-hnE"; */
+"vGo-0R-hnE.configuration.title" = "Poison";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vGo-0R-hnE"; */
+"vGo-0R-hnE.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Homepage"; ObjectID = "vWs-jK-m3G"; */
+"vWs-jK-m3G.configuration.title" = "Homepage";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vWs-jK-m3G"; */
+"vWs-jK-m3G.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Homepage"; ObjectID = "vnr-TL-kr5"; */
+"vnr-TL-kr5.configuration.title" = "Homepage";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vnr-TL-kr5"; */
+"vnr-TL-kr5.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Normal"; ObjectID = "y0n-gG-lTe"; */
+"y0n-gG-lTe.configuration.title" = "Normal";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y0n-gG-lTe"; */
+"y0n-gG-lTe.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Fire"; ObjectID = "yRT-LF-zA9"; */
+"yRT-LF-zA9.configuration.title" = "Fire";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yRT-LF-zA9"; */
+"yRT-LF-zA9.normalTitle" = "Button";
