@@ -106,6 +106,8 @@ class DeveloperViewController: UIViewController {
     }
     
     @objc func changeName() {
+        
+        print("The changeName button was clicked!")
         // Increment the index to the next name
         currentNameIndex = (currentNameIndex + 1) % names.count
         // Set the new name to the NameLabel
