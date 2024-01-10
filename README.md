@@ -23,3 +23,4 @@ To run the Pokédex iOS app on your device:
 1. Clone this repository to your local machine.
    ```bash
    git clone https://github.com/leaalbano/iOS-pokedex.git
+2. Open using Xcode
