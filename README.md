@@ -24,3 +24,9 @@ To run the Pokédex iOS app on your device:
    ```bash
    git clone https://github.com/leaalbano/iOS-pokedex.git
 2. Open using Xcode
+
+## Contributors
+Lea Albano
+Saul Andrade
+Mason Cotterill
+Alejandro Guerrero
