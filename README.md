@@ -26,7 +26,7 @@ To run the Pokédex iOS app on your device:
 2. Open using Xcode
 
 ## Contributors
-Lea Albano
-Saul Andrade
-Mason Cotterill
-Alejandro Guerrero
+- 🌱 Lea Albano
+- 🌱 Saul Andrade
+- 🌱 Mason Cotterill
+- 🌱 Alejandro Guerrero
